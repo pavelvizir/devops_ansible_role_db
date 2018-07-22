@@ -3,3 +3,5 @@
 *.pub
 devops-ansible-role-db-gce-credentials.json
 google_compute_engine
+.yamllint
+__pycache__

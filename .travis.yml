@@ -2,7 +2,7 @@ language: python
 python:
   - '3.6'
 install:
-  - pip install ansible==2.6.1 molecule==2.16.0 apache-libcloud==2.3.0
+  - pip install ansible==2.6.1 molecule==2.16.0 apache-libcloud==2.3.0 pycrypto==2.6.1
 env:
   matrix:
     - GCE_CREDENTIALS_FILE="$(pwd)/devops-ansible-role-db-gce-credentials.json"
