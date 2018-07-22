@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pavelvizir/devops_ansible_role_db.svg?branch=master)](https://travis-ci.org/pavelvizir/devops_ansible_role_db)
+
 Role Name
 =========
 
