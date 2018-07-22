@@ -1,0 +1,9 @@
+language: python
+python:
+  - '3.6'
+install:
+  - pip install ansible==2.6.1 molecule==2.16.0 apache-libcloud==2.3.0
+script:
+  - molecule --debug test
+after_script:
+  - molecule --debug destroy
