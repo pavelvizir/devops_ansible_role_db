@@ -19,7 +19,7 @@
         credentials_file: "{{ lookup('env', 'GCE_CREDENTIALS_FILE') }}"
         project_id: "{{ lookup('env', 'GCE_PROJECT_ID') }}"
         tags:
-          - instance-tavis
+          - instance-travis
       register: server
       with_items: "{{ molecule_yml.platforms }}"
       async: 7200
